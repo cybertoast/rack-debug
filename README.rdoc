@@ -9,7 +9,7 @@ Rails Plugin
 Gem
 
  # install
- $ gem source add http://gems.github.com
+ $ gem source --add http://gems.github.com
  $ gem install ddollar-rack-debug
 
  # add a use line to your builder
