@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "rack-debug"
+    gem.name = "rack-debug19"
     gem.summary = %Q{Rack::Debug adds a middleware interface to ruby-debug}
     gem.description = <<-DESCRIPTION
 
@@ -17,7 +17,7 @@ DESCRIPTION
     gem.authors = ["David Dollar"]
 
     gem.add_dependency 'rack',       '>= 1.0'
-    gem.add_dependency 'ruby-debug', '>= 0.10'
+    gem.add_dependency 'ruby-debug19', '>= 0.11.6'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
